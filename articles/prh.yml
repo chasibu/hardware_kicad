@@ -10,6 +10,10 @@ imports:
 rules:
   - expected: asm.js
     pattern:  ams.js
+  - expected: KiCad
+    pattern:  kicad
+  - expected: KiCad
+    pattern:  Kicad
   - expected: 本章
     pattern:  本記事
   - expected: Angular 2

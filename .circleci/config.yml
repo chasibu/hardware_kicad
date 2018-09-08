@@ -25,11 +25,5 @@ jobs:
           name: Build PDF
           command: npm run pdf
       - store_artifacts:
-          path: ./articles/NefryBook.pdf
-          destination: NefryBook.pdf
-      - run:
-          name: chmod permissions
-          command: chmod +x ./upload_dropbox.sh
-      - run:
-          name: Upload to Dropbox
-          command: ./upload_dropbox.sh ./articles/NefryBook.pdf ${DROPBOX_TOKEN}
+          path: ./articles/HardwareBook.pdf
+          destination: HardwareBook.pdf

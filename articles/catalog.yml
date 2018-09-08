@@ -3,7 +3,12 @@ PREDEF:
 
 # この順で記事が生成される
 CHAPS:
-  - start.re
+  - ハードウェア解説 :
+    - 01hardware.re
+    - 02arduino.re
+    - 03kicad.re
+    - 04plan.re
+    - 05flow.re
   - arduino.re
 APPENDIX:
 

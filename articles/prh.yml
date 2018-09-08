@@ -10,6 +10,10 @@ imports:
 rules:
   - expected: asm.js
     pattern:  ams.js
+  - expected: マイクロコントローラ
+    pattern:  マイクロコンピュータ
+  - expected: Wi-Fi
+    pattern:  WiFi
   - expected: KiCad
     pattern:  kicad
   - expected: KiCad
